@@ -41,7 +41,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
-          <Image src="/images/logocleaning.png" alt="Cleaning Solutions Group" width={300} height={112} className="h-28 w-auto object-contain" />
+          <Image src="/images/logocleaning.png" alt="Cleaning Solutions Group" width={300} height={112} className="h-16 md:h-24 lg:h-28 w-auto object-contain" />
         </Link>
 
         {/* Desktop Menu */}

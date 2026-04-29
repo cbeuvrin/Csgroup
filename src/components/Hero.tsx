@@ -23,7 +23,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl md:text-8xl font-black mb-6 tracking-tighter">
+          <h1 className="text-4xl md:text-7xl lg:text-8xl font-black mb-6 tracking-tighter uppercase leading-[0.9]">
             LIMPIEZA <br />
             <span className="text-primary italic">ESPECIALIZADA</span>
           </h1>
