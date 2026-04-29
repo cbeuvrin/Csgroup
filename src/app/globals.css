@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #dba146;
+  --color-secondary: #0a0500;
+}
+
+@layer base {
+  body {
+    @apply bg-black text-white antialiased;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-black font-bold py-3 px-8 rounded-full hover:scale-105 transition-transform;
+  }
+}
